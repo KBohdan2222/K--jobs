@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Динамічне створення та сортування списку</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+        #inputField {
+            margin-bottom: 10px;
+        }
+        #addButton, #sortButton {
+            margin: 5px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            cursor: pointer;
+            padding: 5px;
+            border: 1px solid #9c3434;
+            margin: 5px 0;
+        }
+        li:hover {
+            background-color: #331d1d;
+        }
+    </style>
+</head>
+<body>
+    <h1>Динамічне створення та сортування списку</h1>
+    <input type="text" id="inputField" placeholder="Введіть значення">
+    <button id="addButton">Додати</button>
+    <button id="sortButton">Сортувати</button>
+    <ul id="itemList"></ul>
+    <script src="script.js"></script>
+</body>
+</html>
