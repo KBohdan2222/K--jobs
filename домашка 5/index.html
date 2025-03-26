@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combined Functionalities</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="light">
+    <h1>Combined Functionalities</h1>
+    <section>
+        <h2>Вибір теми</h2>
+        <button id="toggle-theme">Змінити тему</button>
+    </section>
+    <section>
+        <h2>Контактна форма</h2>
+        <form id="contact-form">
+            <input type="text" id="name" placeholder="Ім'я" required>
+            <input type="email" id="email" placeholder="Email" required>
+            <button type="submit">Зберегти</button>
+        </form>
+    </section>
+    <section>
+        <h2>Кошик покупок</h2>
+        <form id="product-form">
+            <input type="text" id="product" placeholder="Назва товару" required>
+            <button type="submit">Додати в кошик</button>
+        </form>
+        <ul id="cart-list"></ul>
+    </section>
+    <section>
+        <h2>Персоналізоване вітання</h2>
+        <form id="welcome-form">
+            <input type="text" id="username" placeholder="Ваше ім'я" required>
+            <button type="submit">Зберегти</button>
+        </form>
+        <h2 id="welcome-message"></h2>
+    </section>
+    <section>
+        <h2>Зміни у localStorage</h2>
+        <ul id="changes-list"></ul>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

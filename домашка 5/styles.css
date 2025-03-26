@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #df4040;
+    padding: 20px;
+}
+
+body.light {
+    background-color: rgb(65, 1, 1);
+    color: rgb(121, 167, 60);
+}
+
+body.dark {
+    background-color: black;
+    color: rgb(199, 65, 154);
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+form input, form button {
+    margin: 5px 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    background: #46d46a;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 3px;
+}
